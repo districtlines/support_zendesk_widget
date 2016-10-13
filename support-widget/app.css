@@ -1,0 +1,9 @@
+#iframe-area {
+	height: 600px;
+	width: 100%;
+}
+
+#iframe-area iframe {
+	height: 100%;
+	width: 100%;
+}
