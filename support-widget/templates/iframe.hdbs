@@ -1,1 +1,1 @@
-<iframe src="{{setting 'api_url'}}?hash={{setting 'token'}}&order_id={{orderID}}&email={{email}}"/>
+<iframe src="{{setting 'api_url'}}?hash={{setting 'token'}}&{{setting 'custom_field_name'}}={{custom_field_id}}&email={{email}}"/>

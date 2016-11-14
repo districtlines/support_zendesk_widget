@@ -19,6 +19,16 @@
 			"name": "token",
 			"required": true,
 			"type": "text"
+		},
+		{
+			"name": "custom_field_name",
+			"required": true,
+			"type": "text"
+		},
+		{
+			"name": "custom_field_id",
+			"required": true,
+			"type": "text"
 		}
 	]
 }
