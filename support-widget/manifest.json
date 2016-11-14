@@ -1,13 +1,14 @@
 {
 	"name": "District Lines - iFrame Support Widget",
 	"author": {
-		"name": "Cory Steelman",
-		"email": "cory@aktenterprises.com"
+		"name": "District Lines Developers",
+		"email": "support@districtlines.com",
+		"url": "https://www.districtlines.com"
 	},
 	"defaultLocale": "en",
-	"private": true,
+	"private": false,
 	"location": ["ticket_sidebar"],
-	"version": "1.0",
+	"version": "2.0",
 	"frameworkVersion": "1.0",
 	"parameters": [
 		{
