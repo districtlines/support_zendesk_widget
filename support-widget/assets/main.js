@@ -48,7 +48,6 @@ function showIframe() {
 		'custom_field_id': iframeData.order_id,
 		'email': iframeData.email
 	};
-	console.log(settings);
 	var source = $("#iframe-template").html();
 	var template = Handlebars.compile(source);
 	var html = template(settings);
