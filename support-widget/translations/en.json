@@ -1,9 +1,9 @@
 {
 	"app": {
-		"name": "District Lines - Support Widget",
+		"name": "District Lines",
 		"short_description": "The Zendesk Support for District Lines.",
-		"long_description": "Incorporates helpful order information for the selected customer ticket.",
-		"installation_instructions": "Request a parameter document from your District Lines agent. With the given parameter document fill out the app settings. After the settings have been filled out click install. Enjoy!",
+		"long_description": "The District Lines app analyzes your ticket information and looks through the District Lines ordering system to suggest relevant or historical order information for the given ticket requester. Your agents will no longer need to switch between multiple browser windows to view all relevant and helpful ticketing information.\n\nThe app automatically pulls in specific ticket data and searches the District Lines ordering system for a match within the ordering system. Using the ticket requesters email and order ID the app searches for a partial or perfect order match. If a perfect match is found the app displays the ordering information for the given ticket requester. If the app only find a partial match it retrives a list of possible matching orders which can be loaded in. If no match is found the app will give the agent a comical not found message. Hopefully putting a smile on their face.\n\nFor any questions, please email [support@districtlines.com](mailto:support@districtlines.com).",
+		"installation_instructions": "To use the District Lines app,\n\n1. Sign in to your Zendesk Support account, then click the Admin icon in the sidebar.\n2. Select Apps > Marketplace,  then find the District Lines app and click the tile.\n3. On the District Lines app page, click Install.\n4. Configure the app settings, then click Update.\n\nThe app will show up on the Ticket sidebar for every ticket.",
 		 "parameters": {
 			"api_url": {
 				"label": "District Lines API Url",
