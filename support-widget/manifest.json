@@ -23,8 +23,7 @@
 		{
 			"name": "token",
 			"required": true,
-			"type": "text",
-			"secure": true
+			"type": "text"
 		},
 		{
 			"name": "custom_field_name",
